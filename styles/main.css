@@ -1,0 +1,26 @@
+.services-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.services-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+}
+
+.projects-section .card-img-top {
+    height: 300px; /* Set a consistent height */
+    object-fit: cover; /* Crop the image to fill the container */
+    object-position: center; /* Center the cropped image */
+    width: 100%; /* Ensure full width */
+}
+.projects-section .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.projects-section .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+}
+.social-icons i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
